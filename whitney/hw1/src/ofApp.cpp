@@ -48,6 +48,10 @@ void ofApp::draw(){
 //        myLine.getVertices().erase(myLine.getVertices().begin());
 //    }
     
+     ofClear( 255, 0, 0 );
+    xLine.clear();
+    cLine.clear();
+    
     ofPoint point;
     ofPoint cPoint;
     float t;
